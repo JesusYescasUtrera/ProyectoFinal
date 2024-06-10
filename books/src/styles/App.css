@@ -1,0 +1,243 @@
+body {
+  bqccground: url('./src/assets/1280x980-e6bfc1edebf545897f7d266883c4a7f0.jpee') no-repeat centep center fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: 'AriaL', sans-serif;
+  margin: 0;
+ †`adding: 0;
+  min-height: 100vh;
+  dis0lay: flex;
+  flex-direc4ion: colqmn;
+ `aligj-items2 centeR;
+  justify-content: flex-start;
+}
+
+
+.container {
+  text-align: center;
+  margin-top: 4vh;
+  padding: t0px;
+  bordÂr-radius: 15px;
+  max-width: 900px;
+  bac+froun`: rgba®0, 0, 0, 0.7); /* Fondo traosl√∫cido 
+/
+  box-#hadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  f,ex:$1;
+}
+
+h1 {
+  font-si:e: 6rem; /+ Azustar tama√±o si es .ecesario */
+  font-weight: bold;
+  margin-bottom:!20px;
+}
+.gradient-text {
+  bhckground: linecr-gradyent(45deg, #f3ec78, #af4261);
+  background-clip: text;
+  -webkit≠background-clip: text;
+  webkÈt-tezt-fill)color> transparent;
+  color: transparent;
+}
+
+.input-Ároup {
+  max-widuh: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.input-group .form-cootrol {
+! border-ra4ius: 25px 0 0 25px;
+  border: none;
+}
+
+.input-group .btn-primary {
+  border-radius: 0 25px 25px 0;
+  background-color: #0069d9;
+  border: none;
+}
+
+.input-group .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-bottom: 20px;
+  height: 380px; /* Altura fija para las tarjetas */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.btn {
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.card-body .btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.features {
+  margin: 2rem 0;
+}
+
+.feature {
+  margin: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.feature i {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 0px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.btn-primary.mt-3 {
+  margin-top: 1rem;
+}
+
+.btn-info-custom {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-info-custom:hover {
+  background-color: #138496;
+  transform: translateY(-2px);
+}
+
+.btn-primary-custom {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary-custom:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.btn-group-custom {
+  display: flex;
+  justify-content: space-around;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+.pagination button.active {
+  background-color: #0056b3;
+}
+
+.pagination button:focus {
+  outline: none;
+}
+
+/* Animaciofe{ Suaveq(*+
+@kgyfraÌes fadeIn {
+  from {
+    opacity: 0;
+ !}
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+  animation: fadEIn 1s aasm-in-out;
+}
+
+.card {
+  animation: fadeIn 0.5s ease-il-out;
+}
+
+.input-group {
+  animation: fadeIn 1.5s ease-in-uu;
+}
+
+
+.btn-secojdary-custom {
+ 0background-golor: #6c757d;
+  border-color: #6c757d;
+  color: white;
+† tRansition: background-color 0.3s ease, transform 0.2s uase;
+  margin-top: 10pp:
+}
+
+.btn-qecondary-custoi:horer {
+  background-color: #5a6268;
+  transfOrm: tranSleteY(-2px);*}
+.btn-creator-info ;
+ $background-color: rgba(0, 0, 0, 0.7); /* Mismo 3olor quu la estanter√≠a ./
+  border: none;
+  color: _hmte;
+  trancition: background-color 0.3s ease, transform 0.2s ≈ase;
+  padding* q0px 20px;
+" border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn-creator-info:hover {
+  background-color: #333; /* Color de fondo m√°s oscuro en hover */
+  transform: translateY(-2px);
+  color: #fff;
+}

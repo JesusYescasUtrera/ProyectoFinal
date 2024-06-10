@@ -1,0 +1,100 @@
+.bookshelf-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .bookshelf {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    min-height: 300px; /* Establece una altura mínima */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .bookshelf h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .bookshelf .row {
+    display: flex;
+    justify-content: center; /* Centrar los libros horizontalmente */
+    /* align-content: center; */
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  
+  .card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px; /* Ancho fijo para las tarjetas */
+    height: 350px; /* Altura fija para las tarjetas */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  .btn-group-custom {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .btn-info-custom {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn-info-custom:hover {
+    background-color: #138496;
+    transform: translateY(-2px);
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+  }
+  .btn-secondary-custom {
+    background-color: rgba(0, 0, 0, 0.7); /* Mismo color que la estantería */
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-secondary-custom:hover {
+    background-color: #333; /* Color de fondo más oscuro en hover */
+    transform: translateY(-2px);
+    color: #fff;
+  }
+  

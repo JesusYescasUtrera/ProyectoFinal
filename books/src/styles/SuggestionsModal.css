@@ -1,0 +1,43 @@
+.suggestions-modal .modal-header {
+    background-color: rgba(0, 0, 0, 0.7); /* Mismo color que la estantería */
+    color: white;
+  }
+  
+  .suggestions-modal .modal-title {
+    font-weight: bold;
+  }
+  
+  .suggestions-modal .modal-body ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .suggestions-modal .modal-body li {
+    margin-bottom: 10px;
+  }
+  
+  .suggestions-modal .modal-body li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .suggestions-modal .modal-body li a:hover {
+    text-decoration: underline;
+  }
+  
+  .suggestions-modal .modal-footer {
+    border-top: none;
+  }
+  
+  .suggestions-modal .btn-close {
+    background-color: #6c757d;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .suggestions-modal .btn-close:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+  }
+  
